@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Carrinho </title>
+    <link href="carrinho.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Praise&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="pagina">
+        <div id="cabecalho">
+            <div id="logo">
+                <img src="logo.jpeg">
+            </div>
+            <div id="pesquisar">
+                <form action="" method="submit" id="pesquisa">
+                    <input type="search" placeholder="Procurar produtos..." id="procurar">
+                    <button type="submit" id="botaoPesquisa">Procurar</button>
+                </form>
+            </div>
+            <div id="botoes">
+                <div id="botao1">
+                    <a href="carrinho.html" id="carinho" class="botoes2"><strong>Carrinho</strong></a>
+                </div>
+                <div id="botao2">
+                    <a href="minha_conta.html" id="minhaConta" class="botoes2"><strong>Minha Conta</strong></a>
+                </div>
+            </div>
+        </div>
+        <div id="subCab">
+            <a href="home.html" class="links"><h3>Home</h3></a>
+            <a href="produtos.html" class="links"><h3>Produtos</h3></a>
+            <a href="loja.html" class="links"><h3>Loja Física</h3></a>
+            <a href="maisInform.html" class="links"><h3>Mais Informações</h3></a>
+        </div>
+        <div id="img"> <img src="carrinho.jpeg" height="150px"></div>
+            <div id="carrinho" >
+                <h1> Carrinho </h1>
+            </div>
+            <div id="abrangente">
+                <div>
+                    <h1 id="carrin">Meu Carrinho</h1>
+                </div>
+                <div id="menu">
+                    <ul class="linhas">
+                        <li id="produto">Produto</li>
+                        <li id="quant">Quantidade</li>
+                        <li id="remover">Remover</li>
+                        <li id="preco">Preço</li>
+                    </ul>
+                </div>  
+                <div>
+                    <div id="lin1" class="linhas">
+                        <div><img src="bolo_chocolate.jpeg" height="100px" id="img1"></div>
+                        <div id="Bolodchoc">
+                            <ul class="aliment">
+                                <p>Bolo de Chocolate de 5kg</p>
+                            </ul>
+                        </div>
+                        <div class="caixa"><textarea id="posi1" rows="1" cols="1" maxlength="1" ></textarea></div>
+                        <div>
+                            <div><img src="lixeira.png" height="10px" id="lix1" ></div>
+                        </div>
+                        <div id="choc" class="price"><h2>115,00</h2></div>
+                    </div>
+               
+            </div>
+            <div id="lin2" class="linhas">
+                       
+                <div><img src="bolo_branco.jpeg" height="100px"></div>
+                <div id="Bolodninho">
+                    <ul class="aliment">
+                        <p>Bolo de Ninho de 5kg </p>
+                    </ul>
+                </div>
+                <div class="caixa"><textarea id="posi2" rows="1" cols="2" maxlength="1"></textarea></div>
+                <div>
+                    <div><img src="lixeira.png" height="10px" id="lix2" ></div>
+                </div>
+                <div id="nin" class="price"><h2>110,00</h2></div>
+            </div>
+            <div id="lin3" class="linhas">
+                       
+                <div><img src="brigadeiro.jpeg" height="100px" ></div>
+                <div id="briga">
+                    <ul class="aliment">
+                        <p>Brigadeiro gourmet - 15g cada - 10 uni</p>
+   
+                    </ul>
+                </div>
+                <div class="caixa"><textarea id="posi3" rows="1" cols="2" maxlength="1"></textarea></div>
+                <div>
+                    <div><img src="lixeira.png" height="10px" id="lix3" ></div>
+                </div>
+                <div id="bri" class="price"><h2>15,00</h2></div>
+            </div>
+            <div id="lin4" class="linhas">
+                <div><img src="pudim.jpg" height="100px" id="img4"></div>
+                <div id="pudim">
+                    <ul class="aliment">
+                        <p>Pudim de Leite Condensado - 3kg</p>
+                    </ul>
+                </div>
+                <div class="caixa"><textarea id="posi4" rows="1" cols="2" maxlength="1"></textarea></div>
+                <div>
+                    <div><img src="lixeira.png" height="0px" id="lix4" ></div>
+                </div>
+                <div id="pudi" class="price"><h2>30,00</h2></div>
+            </div>
+        <div>
+            <a href="index.html" id="voltar">Voltar aos produtos</a>
+        </div>
+     
+    </div>
+    </body>
+   
+    <div id="resumo">
+        <h2 id="tiresumo">Resumo do Pedido</h2>
+        <div id="linha1">
+            <div id="subtotal"><p>SubTotal (4 pedidos):</p></div>
+            <div class="prc2"><p>270,00</p></div>
+        </div>
+        <div id="linha2">
+            <div id="frete"><p>Frete:</p></div>
+            <div class="prc2" ><p>6,75</p></div>
+ 
+        <div id="linha4">
+            <div id="Total"><p>Total:</p></div>
+            <div id="pre" class="prc2"><p>276,75</p></div>
+        </div>
+    </div>
+</div>
+<div id="confirmar"><a href="finalizar_pedido.html" id="confirmar2">Confirmar Compra </a></div>
+       
+        <div id="caixaFormasPag">
+            <div id="formas">
+                <div id="formasPag">
+                    <div id="formasDPag"><h1>Formas de Pagamento:</h1></div>
+                </div>
+                <div id="formasDePag">
+                    <div id="amazon"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/amazon.png"></div>
+                    <div id="americanExpress"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/americanexpress.png"></div>
+                    <div id="delta"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/delta.png"></div>
+                    <div id="dicover"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/discover.png"></div>
+                    <div id="ebay"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/ebay.png"></div>
+                    <div id="maestro"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/maestro.png"></div>
+                    <div id="masterCard"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/mastercard.png"></div>
+                    <div id="payPal"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/paypal.png"></div>
+                    <div id="solo"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/solo.png"></div>
+                    <div id="stripe"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/stripe.png"></div>
+                    <div id="switch"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/switch.png"></div>
+                    <div id="visa"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/visa.png"></div>
+                    <div id="visaElectron"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/visaelectron.png"></div>
+                </div>
+            </div>
+        </div>
+        <div id="subrodape">
+            <div id="caixaSubrodape">
+                <div id="coluna1">
+                    <ul class="itens">
+                        <li><strong>Ajuda</strong></li>
+                        <li><a id="cadastrarProd" href="cadastrar_produto.html"><strong>Cadastrar Produto</strong></a></li>
+                        <li><strong>Cupons</strong></li>
+                        <li><strong>Entregas</strong></li>
+                    </ul>
+                </div>
+                <div id="coluna2">
+                    <ul class="itens">
+                        <li><strong>Garantia</strong></li>
+                        <li><strong>Localização</strong></li>
+                        <li><strong>Ofertas</strong></li>
+                        <li><strong>Parcerias</strong></li>
+                    </ul>
+                </div>
+                <div id="coluna3">
+                    <ul class="itens">
+                        <li><strong>Política de Privacidade</strong></li>
+                        <li><strong>Prêmios</strong></li>
+                        <li><strong>Promoções</strong></li>
+                        <li><strong>Regras</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="rodape">
+            <div id="nomeLoja">
+                <h1 id="nome">Docelândia</h1>
+            </div>
+            <div id="redes">
+                <div id="redesSociais">
+                    <div id="redesSoc"><h1>Redes Sociais:</h1></div>
+                </div>
+                <div id="facebook" class="redSoc"><img src="Facebook.png"></div>
+                <div id="instagram" class="redSoc"><img src="Instagram.png"></div>
+                <div id="twitter" class="redSoc"><img src="Twitter.png"></div>
+                <div id="gmail" class="redSoc"><img src="Gmail.png"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

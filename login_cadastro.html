@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login e Cadastro</title>
+    <link href="login_cadastro.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Praise&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Praise&family=Roboto:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="pagina">
+        <div id="cabecalho">
+            <div id="logo">
+                <img src="logo.jpeg">
+            </div>
+            <div id="pesquisar">
+                <form action="" method="submit" id="pesquisa">
+                    <input type="search" placeholder="Procurar produtos..." id="procurar">
+                    <button type="submit" id="botaoPesquisa">Procurar</button>
+                </form>
+            </div>
+            <div id="botoes">
+                <div id="botao1">
+                <a href="carrinho.html" id="carrinho" class="botoes2"><strong>Carrinho</strong></a>
+                </div>
+                <div id="botao2">
+                <a href="minha_conta.html" id="minhaConta" class="botoes2"><strong>Minha Conta</strong></a>
+                </div>
+            </div>
+        </div>
+        <div id="subCab">
+            <a href="home.html" class="links"><h3>Home</h3></a>
+            <a href="index.html" class="links"><h3>Produtos</h3></a>
+            <a href="loja.html" class="links"><h3>Loja Física</h3></a>
+            <a href="maisInform.html" class="links"><h3>Mais Informações</h3></a>
+        </div>
+        <div id="login_cadastro">
+            <div id="caixa_login">
+                <div id="login">
+                    <div id="login1"><h1>Login</h1></div>
+                    <div id="login2"><h3>Faça login para começar suas compras!</h3></div>
+                </div>
+                <div id="dados_login">
+                    <div id="form_login">
+                        <form action="" method="post">
+                            <label for="email_login">Email:</label>
+                            <input id="email_login" type="email">
+                            <label for="senha_login">Senha:</label>
+                            <input id="senha_login" type="password">
+                            <p id="esqueceu_senha">Esqueci minha senha</p>
+                            <div id="botao_login1">
+                                <div id="botao_login">
+                                    <a href="index.html" id="botao_login2">Entrar</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="acessar_com">
+                        <div id="aces_face_google">Acessar com:</div>
+                        <div id="acessar_imgs">
+                            <div id="login_face"><img src="Facebook.png"></div>
+                            <div id="login_google"><img src="Google.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="caixa_cadastro">
+                <div id="cadastro">
+                    <div id="cadastro1"><h1>Cadastro</h1></div>
+                    <div id="cadastro2"><h3>Responda este pequeno formulário para se cadastrar em nosso site:</h3></div>
+                </div>
+                <div id="dados_cadastro">
+                    <div id="form_cadastro">
+                        <form action="" method="post">
+                            <label for="nome_cadastro">Nome:</label>
+                            <input id="nome_cadastro" type="text">
+                            <label for="dataNasc_cadastro">Data de nascimento:</label>
+                            <input id="dataNasc_cadastro" type="date">
+                            <label for="tel_cadastro">Telefone:</label>
+                            <input id="tel_cadastro" type="tel">
+                            <label for="cpf_cadastro">CPF:</label>
+                            <input id="cpf_cadastro" type="number">
+                            <label for="email_cadastro">Email:</label>
+                            <input id="email_cadastro" type="email">
+                            <p id="sexo">Sexo:</p>
+                            <div id="sexo2">
+                                <input id="sexoM" name="sexo" type="radio">
+                                <label for="sexoM">Masculino</label>
+                                <input id="sexoF" name="sexo" type="radio">
+                                <label for="sexoF">Feminino</label>
+                            </div>
+                            <label for="senha_cadastro">Senha:</label>
+                            <input id="senha_cadastro" type="password">
+                            <input id="concordo_cadastro" type="checkbox">
+                            <label for="concordo_cadastro">Li e concordo com os <strong>Termos de uso e Política de Privacidade</strong></label>
+                            <div id="botao_cadastro1">
+                                <div id="botao_cadastro">
+                                    <a href="index.html" id="botao_cadastro2">Cadastrar</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="caixaFormasPag">
+            <div id="formas">
+                <div id="formasPag">
+                    <div id="formasDPag"><h1>Formas de Pagamento:</h1></div>
+                </div>
+                <div id="formasDePag">
+                    <div id="amazon"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/amazon.png"></div>
+                    <div id="americanExpress"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/americanexpress.png"></div>
+                    <div id="delta"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/delta.png"></div>
+                    <div id="dicover"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/discover.png"></div>
+                    <div id="ebay"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/ebay.png"></div>
+                    <div id="maestro"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/maestro.png"></div>
+                    <div id="masterCard"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/mastercard.png"></div>
+                    <div id="payPal"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/paypal.png"></div>
+                    <div id="solo"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/solo.png"></div>
+                    <div id="stripe"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/stripe.png"></div>
+                    <div id="switch"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/switch.png"></div>
+                    <div id="visa"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/visa.png"></div>
+                    <div id="visaElectron"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/visaelectron.png"></div>
+                </div>
+            </div>
+        </div>
+        <div id="subrodape">
+            <div id="caixaSubrodape">
+                <div id="coluna1">
+                    <ul class="itens">
+                        <li><strong>Ajuda</strong></li>
+                        <li><a id="cadastrarProd" href="cadastrar_produto.html"><strong>Cadastrar Produto</strong></a></li>
+                        <li><strong>Cupons</strong></li>
+                        <li><strong>Entregas</strong></li>
+                    </ul>
+                </div>
+                <div id="coluna2">
+                    <ul class="itens">
+                        <li><strong>Garantia</strong></li>
+                        <li><strong>Localização</strong></li>
+                        <li><strong>Ofertas</strong></li>
+                        <li><strong>Parcerias</strong></li>
+                    </ul>
+                </div>
+                <div id="coluna3">
+                    <ul class="itens">
+                        <li><strong>Política de Privacidade</strong></li>
+                        <li><strong>Prêmios</strong></li>
+                        <li><strong>Promoções</strong></li>
+                        <li><strong>Termos de uso</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="rodape">
+            <div id="nomeLoja">
+                <h1 id="nome">Docelândia</h1>
+            </div>
+            <div id="redes">
+                <div id="redesSociais">
+                    <div id="redesSoc"><h1>Redes Sociais:</h1></div>
+                </div>
+                <div id="facebook" class="redSoc"><img src="Facebook.png"></div>
+                <div id="instagram" class="redSoc"><img src="Instagram.png"></div>
+                <div id="twitter" class="redSoc"><img src="Twitter.png"></div>
+                <div id="gmail" class="redSoc"><img src="Gmail.png"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

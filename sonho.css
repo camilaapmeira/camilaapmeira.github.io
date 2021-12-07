@@ -1,0 +1,327 @@
+#pagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cabecalho {
+    height: 150px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 15px;
+}
+#logo {
+    width: 150px;
+    height: 130px;
+}
+#procurar {
+    width: 275px;
+    height: 45px;
+    border: solid 3px #591C2C;
+    border-radius: 8px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+#botaoPesquisa {
+    width: 100px;
+    height: 45px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    color: white;
+    font-size: 17px;
+}
+#botoes {
+    display: flex;
+}
+.botoes2 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#botao1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-right: 15px;
+}
+#botao2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+}
+#subCab {
+    display: flex;
+    margin-top: 10px;
+    width: 1200px;
+    height: 50px;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.links {
+    color: #591C2C;
+    text-decoration: none;
+}
+#input{
+    border: black solid 2px;
+    height: 40px;
+    width: 330px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: #591C2C;
+}
+ 
+#abrangente{
+    position: relative;
+    border-bottom: solid transparent 8px;
+    background-color: #F5F5F5;
+    width: auto;
+    height: 1000px;
+   
+}
+#maior{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid transparent 5px;
+    height: 600px;
+    width: 1300px;
+    background-color: white;
+    border: solid black 1px;
+}
+#descricao{
+    border-color: #591C2C;
+    position: relative;
+    display: flex;
+    float: left;
+    width: 700px;
+    height: 70px;
+    font-family: 'Work Sans', sans-serif;
+    border: solid transparent 5px;
+    margin-left: 550px;
+    margin-top: -470px;
+    margin-right: -100px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    text-align: center;
+    bottom: 89px;
+    font-size: 35px;
+    right: 60px;
+   
+}
+.parte1{
+    margin-top: -500px;
+}
+#imagem{
+    margin-left: 10px;
+    float: left;
+    border: solid #591C2C 3px ;
+    margin-top: 11px;
+}
+ 
+#frete{
+    position: relative;
+    display: flex;
+    float: left;
+    border: solid black 5px;
+    color: white;
+    background-color: black;
+    padding: 10px 10px 15px 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    margin-top: -100px;
+    margin-left: 425px;
+    font-size: 20px;
+    width: 150px;
+    height: 15px;
+    bottom: 230px;
+    right: 50px;
+}
+#valor{
+    position: relative;
+    border: solid transparent 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bold;
+    padding-top: -3px;
+    padding-bottom: -3px;
+    padding-right: 150px;
+    font-size: 50px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 680px;
+    text-align: center;
+    bottom: 420px;
+    font-size: 40px;
+    left: 260px;
+}
+#comprarr{
+    position: relative;
+    background-color: #8f3e54;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 455px;
+    color: white;
+    text-shadow: 3px 4px 2px black;
+    text-decoration: none;
+    margin-top: 20px;
+    bottom: 495px;
+    left: 450px;
+   
+}
+#comprarcor{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    top: 13px;
+}
+ 
+#outrasimg{
+    display: flex;
+    clear: both;
+    border: solid transparent 5px;
+    margin-top: 20px;
+    width: 1130px;
+    height: 100px;
+    margin-left: -45px;
+}
+.sonho{
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border: solid #591C2C 3px;
+}
+#sonho2{
+    margin-left: 70px;
+}
+#sonho3{
+    margin-left: 30px;
+}
+ 
+#estrela1{
+    position: relative;
+    display: flex;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    bottom: 840px;
+    left: 200px;
+}
+#caixaFormasPag {
+    height: 150px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#formasPag {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+}
+#formasDPag {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+    font-size: 20px;
+}
+#formas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+#formasDePag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+#caixaSubrodape {
+    height: 150px;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.itens {
+    color: #591C2C;
+    list-style: none;
+    font-size: 20px;
+}
+#cadastrarProd {
+    color: #591C2C;
+    text-decoration: none;
+}
+#rodape {
+    height: 150px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#nome {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+    font-size: 80px;
+}
+#redesSociais {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+#redesSoc {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+}
+#redes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+#facebook {
+    margin-right: 15px;
+}
+#instagram {
+    margin-right: 15px;
+}

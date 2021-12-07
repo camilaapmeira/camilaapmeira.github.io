@@ -1,0 +1,388 @@
+#pagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cabecalho {
+    height: 150px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 15px;
+}
+#logo {
+    width: 150px;
+    height: 130px;
+}
+#procurar {
+    width: 275px;
+    height: 45px;
+    border: solid 3px #591C2C;
+    border-radius: 8px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+#botaoPesquisa {
+    width: 100px;
+    height: 45px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    color: white;
+    font-size: 17px;
+}
+#botoes {
+    display: flex;
+}
+.botoes2 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#botao1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-right: 15px;
+}
+#botao2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+}
+#subCab {
+    display: flex;
+    margin-top: 10px;
+    width: 1200px;
+    height: 50px;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.links {
+    color: #591C2C;
+    text-decoration: none;
+}
+#linha1 {
+    display: flex;
+    margin-top: 50px;
+}
+#linha2 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}#linha3 {
+    display: flex;
+    margin-bottom: 50px;
+}
+.preços {
+    font-size: 20px;
+}
+.produtos2 {
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+#boloChoc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border: solid 3px #591C2C;
+    border-radius: 20px;
+}
+#cupcake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin-left: 75px;
+    margin-right: 75px;
+    border: solid 3px #591C2C;
+    border-radius: 20px;
+}
+#boloBranco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border: solid 3px #591C2C;
+    border-radius: 20px;
+}
+#beijinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border: solid 3px #591C2C;
+    border-radius: 20px;
+}
+#pudim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin-left: 75px;
+    margin-right: 75px;
+    border: solid 3px #591C2C;
+    border-radius: 20px;
+}
+#brigadeiro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border: solid 3px #591C2C;
+    border-radius: 20px;
+}
+#sonho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border: solid 3px #591C2C;
+    border-radius: 20px;
+}
+#trufa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin-left: 75px;
+    margin-right: 75px;
+    border: solid 3px #591C2C;
+    border-radius: 20px;
+}
+#macarron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border: solid 3px #591C2C;
+    border-radius: 20px;
+}
+.comprar {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#comprar1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-bottom: 15px;
+}
+#comprar2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-bottom: 15px;
+}
+#comprar3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-bottom: 15px;
+}
+#comprar4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-bottom: 15px;
+}
+#comprar5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-bottom: 15px;
+}
+#comprar6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-bottom: 15px;
+}
+#comprar7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-bottom: 15px;
+}
+#comprar8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-bottom: 15px;
+}
+#comprar9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-bottom: 15px;
+}
+#caixaFormasPag {
+    height: 150px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#formasPag {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+}
+#formasDPag {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+    font-size: 20px;
+}
+#formas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+#formasDePag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+#caixaSubrodape {
+    height: 150px;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.itens {
+    color: #591C2C;
+    list-style: none;
+    font-size: 20px;
+}
+#cadastrarProd {
+    color: #591C2C;
+    text-decoration: none;
+}
+#rodape {
+    height: 150px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#nome {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+    font-size: 80px;
+}
+#redesSociais {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+#redesSoc {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+}
+#redes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+#facebook {
+    margin-right: 15px;
+}
+#instagram {
+    margin-right: 15px;
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Docelândia</title>
+    <link href="finalizar_pedido.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Praise&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Praise&family=Roboto:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="pagina">
+        <div id="cabecalho">
+            <div id="logo">
+                <img src="logo.jpeg">
+            </div>
+            <div id="pesquisar">
+                <form action="" method="submit" id="pesquisa">
+                    <input type="search" placeholder="Procurar produtos..." id="procurar">
+                    <button type="submit" id="botaoPesquisa">Procurar</button>
+                </form>
+            </div>
+            <div id="botoes">
+                <div id="botao1">
+                <a href="carrinho.html" id="carrinho" class="botoes2"><strong>Carrinho</strong></a>
+                </div>
+                <div id="botao2">
+                <a href="login_cadastro.html" id="minhaConta" class="botoes2"><strong>Minha Conta</strong></a>
+                </div>
+            </div>
+        </div>
+        <div id="subCab">
+            <a href="home.html" class="links"><h3>Home</h3></a>
+            <a href="index.html" class="links"><h3>Produtos</h3></a>
+            <a href="loja.html" class="links"><h3>Loja Física</h3></a>
+            <a href="maisInform.html" class="links"><h3>Mais Informações</h3></a>
+        </div>
+            <div id="finalizar_pedido">
+                <div id="finlinha1">
+                   <div id="meu_pedido">
+                        <div id="titulo">
+                            <h2 class="titulos">Meu Pedido:</h2>
+                        </div>
+                        <div id="meu_pedido2">
+                            <div id="desc_prod">
+                                <div id="linha1" class="linhas">
+                                    <div id="descrição"><h3>Descrição:</h3></div>
+                                    <div id="preço"><h3>Preço:</h3></div>
+                                </div>
+                                <div id="produto1" class="linhas">
+                                    <div><p>Bolo de Chocolate</p></div>
+                                    <div><p>115,00</p></div>
+                                </div>
+                                <div id="produto2" class="linhas">
+                                    <div><p>Bolo de Ninho</p></div>
+                                    <div><p>110,00</p></div>
+                                </div>
+                                <div id="produto3" class="linhas">
+                                    <div><p>Brigadeiro Gourmet</p></div>
+                                    <div><p>15,00</p></div>
+                                </div>
+                                <div id="produto4" class="linhas">
+                                    <div><p>Pudim de Leite Condensado</p></div>
+                                    <div><p>30,00</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="resumo_pedido">
+                        <div id="resumo_pedido2">
+                            <h2 class="titulos">Resumo do Pedido:</h2>
+                            <div id="subtotal" class="linhas2">
+                                <div><p>SubTotal (4 pedidos):</p></div>
+                                <div><p>270,00</p></div>
+                            </div>
+                            <div id="frete" class="linhas2">
+                                <div><p>Frete:</p></div>
+                                <div><p>6,75</p></div>
+                            </div>
+                            <div id="cupom" class="linhas2">
+                                <div><p>Cupom de desconto:</p></div>
+                                <div><p>00,00</p></div>
+                            </div>
+                            <div id="linha4" class="linhas2">
+                                <div><h3>Total:</h3></div>
+                                <div><h3>276,75</h3></div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div id="finlinha2">
+                    <div id="entrega">
+                        <div id="endereço_entrega">
+                            <h2 class="titulos">Endereço de Entrega:</h2>
+                        </div>
+                        <div id="entrega2">
+                            <div>
+                                <ul id="alterar">
+                                    <li>Alterar endereço de entrega</li>
+                                </ul>
+                            </div>
+                            <div id="texto">
+                                <p id="finalizar1"><strong>Certifique-se de que as informações do seu pedido estão corretas antes de finaliza-lo.</strong></p>
+                                <p id="finalizar2"><strong>A entrega serrá feita pela loja mais perto de você no prazo de até 3 dias.</strong></p>
+                            </div>
+                            <div id="cupom">
+                                <form>
+                                    <p><label for="form_cupom" id="possui_cupom"><b>Possui Cupom de Desconto?</b></label></p>
+                                    <input type="number" id="form_cupom" placeholder="Informe o código do cupom...">
+                                    <button type="submit" id="aplicar">Aplicar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="forma_pag">
+                        <div id="forma_pag3">
+                            <form>
+                                <label><h2 id="forma_pag2" class="titulos">Formas de Pagamento:</h2></label>
+                                <p><label for="boleto" class="line">Boleto Bancário</label>
+                                <input type="radio" id="boleto" name="pagamento"></p>
+                                <p><label for="credito" class="line"><p>Cartão de Crédito</label>
+                                <input type="radio" id="credito" name="pagamento"></p>
+                                <p><label for="débito" class="line">Cartão de Débito</label>
+                                <input type="radio" id="débito" name="pagamento"></p>
+                                <a href="index.html"><button type="button" id="finalizar">Finalizar Pedido</button></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="voltar">
+                    <a href="carrinho.html"  id="voltar">Voltar ao carrinho</a>
+                </div>
+                <div id="caixaFormasPag">
+                    <div id="formas">
+                        <div id="formasPag">
+                            <div id="formasDPag"><h1>Formas de Pagamento:</h1></div>
+                        </div>
+                        <div id="formasDePag">
+                            <div id="amazon"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/amazon.png"></div>
+                            <div id="americanExpress"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/americanexpress.png"></div>
+                            <div id="delta"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/delta.png"></div>
+                            <div id="dicover"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/discover.png"></div>
+                            <div id="ebay"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/ebay.png"></div>
+                            <div id="maestro"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/maestro.png"></div>
+                            <div id="masterCard"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/mastercard.png"></div>
+                            <div id="payPal"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/paypal.png"></div>
+                            <div id="solo"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/solo.png"></div>
+                            <div id="stripe"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/stripe.png"></div>
+                            <div id="switch"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/switch.png"></div>
+                            <div id="visa"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/visa.png"></div>
+                            <div id="visaElectron"><img src="https://raw.githubusercontent.com/danilocbueno/web1/main/footer/cartoes/visaelectron.png"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="subrodape">
+                    <div id="caixaSubrodape">
+                        <div id="coluna1">
+                            <ul class="itens">
+                                <li><strong>Ajuda</strong></li>
+                                <li><a id="cadastrarProd" href="cadastrar_produto.html"><strong>Cadastrar Produto</strong></a></li>
+                                <li><strong>Cupons</strong></li>
+                                <li><strong>Entregas</strong></li>
+                            </ul>
+                        </div>
+                        <div id="coluna2">
+                            <ul class="itens">
+                                <li><strong>Garantia</strong></li>
+                                <li><strong>Localização</strong></li>
+                                <li><strong>Ofertas</strong></li>
+                                <li><strong>Parcerias</strong></li>
+                            </ul>
+                        </div>
+                        <div id="coluna3">
+                            <ul class="itens">
+                                <li><strong>Política de Privacidade</strong></li>
+                                <li><strong>Prêmios</strong></li>
+                                <li><strong>Promoções</strong></li>
+                                <li><strong>Regras</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="rodape">
+                    <div id="nomeLoja">
+                        <h1 id="nome">Docelândia</h1>
+                    </div>
+                    <div id="redes">
+                        <div id="redesSociais">
+                            <div id="redesSoc"><h1>Redes Sociais:</h1></div>
+                        </div>
+                        <div id="facebook" class="redSoc"><img src="Facebook.png"></div>
+                        <div id="instagram" class="redSoc"><img src="Instagram.png"></div>
+                        <div id="twitter" class="redSoc"><img src="Twitter.png"></div>
+                        <div id="gmail" class="redSoc"><img src="Gmail.png"></div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>

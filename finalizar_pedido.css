@@ -1,0 +1,326 @@
+#pagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cabecalho {
+    height: 150px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 15px;
+}
+#logo {
+    width: 150px;
+    height: 130px;
+}
+#procurar {
+    width: 275px;
+    height: 45px;
+    border: solid 3px #591C2C;
+    border-radius: 8px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+#botaoPesquisa {
+    width: 100px;
+    height: 45px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    color: white;
+    font-size: 17px;
+}
+#botoes {
+    display: flex;
+}
+.botoes2 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#botao1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-right: 15px;
+}
+#botao2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+}
+#subCab {
+    display: flex;
+    margin-top: 10px;
+    width: 1200px;
+    height: 50px;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.links {
+    color: #591C2C;
+    text-decoration: none;
+}
+#finalizar_pedido {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#finlinha1 {
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    margin-left: 35px;
+    margin-right: 0px;
+}
+#finlinha2 {
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 35px;
+}
+#meu_pedido {
+    width: 600px;
+    border: solid 3px #591C2C;
+    border-radius: 15px;
+    height: 310px;
+}
+#resumo_pedido {
+    width: 600px;
+    border: solid 3px #591C2C;
+    border-radius: 15px;
+    height: 310px;
+}
+#entrega {
+    width: 600px;
+    border: solid 3px #591C2C;
+    border-radius: 15px;
+    height: 310px;
+}
+#forma_pag {
+    width: 600px;
+    border: solid 3px #591C2C;
+    border-radius: 15px;
+    height: 310px;
+}
+#resumo_pedido2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#meu_pedido2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#entrega2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#forma_pag3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#alterar{
+    color: #591C2C;
+    text-decoration: underline;
+    list-style: none;
+    margin-right: 45px;
+}
+#aplicar{
+    background: #591C2C;
+    border: input 3px #591C2C;
+    border-radius: 5px;
+    font-size: 10px;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+    height: 30px;
+}
+#finalizar{
+    background-color: #591C2C;
+    text-align: center;
+    color: white;
+    border: input 3px #591C2C;
+    border-radius: 5px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px; 
+    width: 470px;
+    margin-top: 20px;
+}
+#credito {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#forma_pag2 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+#titulo2{
+    margin-top: -20px;
+}
+#titulo{
+    text-align: center;
+    width: 550px;
+    margin-left: 0px;
+}
+.titulos{
+    text-align: center; 
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive; 
+}
+.linhas{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    line-height:10px;
+}
+.linhas2{
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    line-height:15px;
+}
+.line{
+    line-height: 15px;
+}
+#possui_cupom{
+    text-decoration: underline;
+    margin-top: 15px;
+}
+#form_cupom{
+    width: 300px;
+    height: 15px;
+}
+#voltar{
+    margin-left: 80px;
+    margin-top: 20px;
+    color: #591C2C;
+}
+#pagam{
+    margin-top: 0px;
+}
+#caixaFormasPag {
+    height: 150px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#formasPag {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+}
+#formasDPag {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+    font-size: 20px;
+}
+#formas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+#formasDePag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+#caixaSubrodape {
+    height: 150px;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.itens {
+    color: #591C2C;
+    list-style: none;
+    font-size: 20px;
+}
+#cadastrarProd {
+    color: #591C2C;
+    text-decoration: none;
+}
+#rodape {
+    height: 150px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+#nome {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+    font-size: 80px;
+}
+#redesSociais {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+#redesSoc {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+}
+#redes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+#facebook {
+    margin-right: 15px;
+}
+#instagram {
+    margin-right: 15px;
+}

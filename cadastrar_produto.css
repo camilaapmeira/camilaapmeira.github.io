@@ -1,0 +1,330 @@
+#pagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cabecalho {
+    height: 150px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 15px;
+}
+#logo {
+    width: 150px;
+    height: 130px;
+}
+#procurar {
+    width: 275px;
+    height: 45px;
+    border: solid 3px #591C2C;
+    border-radius: 8px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+#botaoPesquisa {
+    width: 100px;
+    height: 45px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    color: white;
+    font-size: 17px;
+}
+#botoes {
+    display: flex;
+}
+.botoes2 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#botao1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-right: 15px;
+}
+#botao2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+}
+#subCab {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 1200px;
+    height: 50px;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.links {
+    color: #591C2C;
+    text-decoration: none;
+}
+#cadastrar_produto {
+    display: flex;
+}
+#caixa1 {
+    height: 340px;
+    width: 220px;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    margin-right: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+#caixa2 {
+    height: 900px;
+    width: 650px;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+#alteraçao {
+    padding-top: 10px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#novo_prod {
+    padding-bottom: 10px;
+}
+#relatorios {
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#relat1 {
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#relat2 {
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#relat3 {
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#titulo {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 50px;
+}
+textarea {
+    line-height: 20px;
+}
+#descriçao {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#caixaq {
+    font-size: 25px;
+    margin-left: 50px;
+}
+#preço {
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+#caixa2 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#titulo2 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#caixap {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#caixas {
+    font-size: 25px;
+    margin-left: 50px;
+}
+#caixat {
+    font-size: 25px;
+    margin-left: 50px;
+}
+#caixaq {
+    margin-left: 50px;
+}
+#caixac {
+    margin-left: 50px;
+}
+#preço {
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#ficha {
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#categoria {
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#upload {
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#cadastrar {
+    height: 30px;
+    width: 150px;
+    font-size: 25px;
+    text-align: center;
+    border: input 5px #591C2C;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #591C2C;
+    color: white;
+    margin-top: 60px;
+    margin-left: 225px;
+    margin-bottom: 50px;
+}
+#caixaFormasPag {
+    height: 150px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#formasPag {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+}
+#formasDPag {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+    font-size: 20px;
+}
+#formas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+#formasDePag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+#caixaSubrodape {
+    height: 150px;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.itens {
+    color: #591C2C;
+    list-style: none;
+    font-size: 20px;
+}
+#cadastrarProd {
+    color: #591C2C;
+    text-decoration: none;
+}
+#rodape {
+    height: 150px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#nome {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+    font-size: 80px;
+}
+#redesSociais {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+#redesSoc {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+}
+#redes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+#facebook {
+    margin-right: 15px;
+}
+#instagram {
+    margin-right: 15px;
+}

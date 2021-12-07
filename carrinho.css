@@ -1,0 +1,506 @@
+#pagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cabecalho {
+    height: 150px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 15px;
+}
+#logo {
+    width: 150px;
+    height: 130px;
+}
+#procurar {
+    width: 275px;
+    height: 45px;
+    border: solid 3px #591C2C;
+    border-radius: 8px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+#botaoPesquisa {
+    width: 100px;
+    height: 45px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    color: white;
+    font-size: 17px;
+}
+#botoes {
+    display: flex;
+}
+.botoes2 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-family: 'Praise', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#botao1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+    margin-right: 15px;
+}
+#botao2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border: outset 3px #591C2C;
+    border-radius: 8px;
+    background-color: #591C2C;
+}
+#subCab {
+    display: flex;
+    margin-top: 10px;
+    width: 1200px;
+    height: 50px;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.links {
+    color: #591C2C;
+    text-decoration: none;
+}
+#carrinho{
+    position: relative;
+    margin-left: 1px;
+    font-size: 55px;
+    color:#000000;
+    font-family: 'work Sans', sans-serif;
+    right: 400px;
+    bottom: 10px;
+    font-size: 50px;
+}
+ 
+#img{
+    position: relative;
+    margin: 50px;
+    bottom: 48px;
+    right: 360px;
+   
+}
+#abrangente{
+    position: relative;
+    margin-right: 150px;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    border: solid 2px #591C2C;
+    color: #591C2C;
+    bottom: 50px;
+ 
+}
+#carrin{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #591C2C;
+}
+.linhas{
+    position: relative;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 0px;
+    list-style: none;
+    margin-right: 20px;
+}
+#menu{
+    margin-left: 150px;
+    width: 100px;
+    border-bottom: solid 3px;
+}
+#produto{
+    margin-left: -50px;
+    margin-right: 150px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#quant{
+    position: relative;
+    margin-right: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    left: 80px;
+ 
+}
+#remover{
+    position: relative;
+    margin-right: 160px;
+    font-size: 25px;
+    font-weight: bold;
+    right: 20px;
+}
+#preco{
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    right: 100px;
+}
+#Bolodchoc{
+    position: relative;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    border: solid 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style: none;
+    right: 45px;
+    margin-top: 25px;
+}
+#posi1{
+    position: relative;
+    padding: 0px;
+    width: 50px;
+    right: 70px;
+    top: 25px;
+}
+#lix1{
+    position: relative;
+    padding: 0px;
+    height: 50px;
+    left: 25px;
+    top: 25px;
+}
+#choc{
+    position: relative;
+    padding: 0px;
+    height: 50px;
+    left: 25px;
+    top: 25px;
+}
+#Bolodninho{
+    position: relative;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    border: solid 1px;
+    margin-left: 10px;
+    margin-right: 50px;
+    list-style: none;
+    right: 7px;
+    margin-top: 25px;
+}
+#posi2{
+    position: relative;
+    padding: 0px;
+    width: 50px;
+    right: 30px;
+    top: 25px;
+}
+#lix2{
+    position: relative;
+    padding: 0px;
+    height: 50px;
+    left: 65px;
+    top: 25px;
+}
+#nin{
+    position: relative;
+    padding: 0px;
+    height: 50px;
+    left: 65px;
+    top: 25px;
+}
+#briga{
+    position: relative;
+    height: 57px;
+    width: 250px;
+    font-size: 20px;
+    border: solid 1px;
+    margin-left: 17px;
+    margin-right: 50px;
+    list-style: none;
+    right: 10px;
+    margin-top: 25px;
+ 
+}
+#bri{
+    position: relative;
+    padding: 0px;
+    height: 50px;
+    left: 65px;
+    top: 25px;
+}
+#posi3{
+    position: relative;
+    padding: 0px;
+    width: 50px;
+    right: 37px;
+    top: 25px;
+}
+#lix3{
+    position: relative;
+    padding: 0px;
+    height: 50px;
+    left: 60px;
+    top: 25px;
+}
+#pudim{
+    position: relative;
+    height: 57px;
+    width: 250px;
+    font-size: 20px;
+    border: solid 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style: none;
+    right: 40px;
+    margin-top: 25px;
+}
+#posi4{
+    position: relative;
+    padding: 0px;
+    width: 50px;
+    right: 70px;
+    top: 25px;
+}
+#lix4{
+    position: relative;
+    padding: 0px;
+    height: 50px;
+    left: 30px;
+    top: 25px;
+}
+#pudi{
+    position: relative;
+    padding: 0px;
+    height: 50px;
+    left: 35px;
+    top: 20px;
+ 
+}
+.aliment{
+    margin-left: -20px;
+    margin-top: -10px;
+}
+ 
+.price{
+    margin-left: 100px;
+    text-align: center;
+}
+.caixa{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+#lin4{
+    margin-bottom: 70px;
+}
+.aliment{
+    list-style: none;
+}
+#resumo{
+    background-color: hsl(350, 63%, 87%);
+    color: #804454;
+    height: 700px;
+    width: 500px;
+    font-family:  'work Sans', sans-serif;
+    margin-top: -940px;
+    margin-left: 1350px;
+    border: solid 2px;
+}
+#tiresumo{
+    color: #804454;
+    font-size: 40px;
+    margin-top: 10px;
+    border-bottom: solid 3px;
+    text-align: center;
+}
+#subtotal{
+    background-color: #804454;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 120px;
+    padding-bottom: -10px;
+    border: solid 1px;
+}
+ 
+#frete{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #804454;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 150px;
+    border: solid 1px;
+}
+#Total{
+    font-size: 30px;
+    font-size: 30px;
+    background-color: #804454;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 150px;
+    border: solid 1px;
+}
+.prc2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -10px;
+    font-weight: bold;
+    border-bottom: solid 3px;
+}
+#confirmar{
+    position: relative;
+    height: -70px;
+    width: 300px;
+    border: solid 5px #591C2C;
+    background-color: #591C2C;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'work Sans', sans-serif;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-left: 670px;
+    bottom: 50px;
+    left: 25px;
+}
+#confirmar2{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    top: 5px;
+}
+#voltar{
+    color: #591C2C;
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+    margin-left: 100px;
+    font-size: 25px;
+    height: 100px;
+}
+#pre{
+    border: none;
+}
+#pag1{
+    width: 500px;
+    margin-top: 20px;
+}
+ 
+#pag2{
+    width: 450px;
+}
+ 
+.itens {
+    color: #591C2C;
+    list-style: none;
+    font-size: 20px;
+}
+#cadastrarProd {
+    color: #591C2C;
+    text-decoration: none;
+}
+#caixaFormasPag {
+    height: 150px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#formasPag {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+}
+#formasDPag {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+    font-size: 20px;
+}
+#formas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+#formasDePag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+#caixaSubrodape {
+    height: 150px;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+#rodape {
+    position: relative;
+    height: 250px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4b2be;
+    border: solid 5px #591C2C;
+    border-radius: 10px;
+    margin-top: 15px;
+    top: 5px;
+}
+#nome {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+    font-size: 80px;
+}
+#redesSociais {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+#redesSoc {
+    color: #591C2C;
+    font-family: 'Praise', cursive;
+}
+#redes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+#facebook {
+    margin-right: 15px;
+}
+#instagram {
+    margin-right: 15px;
+}
